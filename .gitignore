@@ -1,0 +1,101 @@
+# Compiled files
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Simulation files
+*.vcd
+*.saif
+*.fsdb
+*.shm
+*.trn
+*.dsn
+*.history
+
+# Synthesis files
+*.log
+*.rpt
+*.sdc
+*.tcl.bak
+*.backup
+
+# Icarus Verilog
+vvp
+a.out
+
+# ModelSim/QuestaSim
+*.wlf
+work/
+transcript
+*.vstf
+*.wlft
+*.qdb
+*.qtl
+
+# Xilinx Vivado
+*.jou
+*.str
+*.xpr
+*.cache/
+*.hw/
+*.ip_user_files/
+*.runs/
+*.sim/
+*.gen/
+webtalk*
+xgui/
+
+# Intel Quartus
+*.qpf
+*.qsf
+*.qws
+db/
+incremental_db/
+output_files/
+
+# Temporary files
+*~
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# Build directories
+build/
+dist/
+out/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
